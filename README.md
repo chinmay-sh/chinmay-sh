@@ -25,4 +25,4 @@ I am deeply interested in various fields of computer science :computer: and am a
 
 [![Github gists](https://gist-count.vercel.app/api?username=the-redlord)](https://gist.github.com/the-redlord)
 
-<p><img src="touch.png" alt="slogan" width="150" height="150"/></p>
+<p><img src="touch.png" alt="slogan" width="250" height="250"/></p>
