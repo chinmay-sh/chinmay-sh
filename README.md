@@ -9,7 +9,7 @@ I am deeply interested in various fields of computer science :computer: and am a
 
 - 🌱 I’m currently learning **Reinforcement Learning, Flutter**
 
-- 👨‍💻 All of my projects are available at [https://the-redlord.github.io](https://the-redlord.github.io)
+- 👨‍💻 All of my projects are available at [https://github.com/the-redlord/](https://github.com/the-redlord/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
