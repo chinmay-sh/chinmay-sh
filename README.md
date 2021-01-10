@@ -7,7 +7,7 @@ I am deeply interested in various fields of computer science :computer: and am a
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=the-redlord" alt="the-redlord" /></a> </p>
 
-- 🌱 I’m currently learning **Reinforcement Learning, Flutter**
+- 🌱 I’m currently learning **Reinforcement Learning &amp; Flutter**
 
 - 👨‍💻 All of my projects are available at [https://github.com/the-redlord/](https://github.com/the-redlord/)
 
