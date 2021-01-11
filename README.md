@@ -2,8 +2,11 @@
 <h3 align="center">A passionate <code>computer programmer</code> &amp; a space-enthusiast :milky_way: :rocket: .</h3>
 
 <h5>
-I am deeply interested in various fields of computer science :computer: and am actively learning some of them. Till now, I have gotten involved with web programming :globe_with_meridians:, machine learning, deep learning and reinforcement learning :robot: along with some devops tools like Git, Docker, and have deployed a few of my projects on various platforms like AWS, Microsoft Azure, GCP and Firebase. I am also interested in learning about space and how computers can be effectively used to innovate and improve our advancements in the same.
+Till now, I have gotten involved with web programming :globe_with_meridians:, machine learning, deep learning and reinforcement learning :robot: along with some devops tools like Git, Docker, and have deployed a few of my projects on various platforms like AWS, Microsoft Azure, GCP and Firebase. I am also interested in learning about space and how computers can be effectively used to innovate and improve our advancements in the same.
 </h5>
+<!--
+I am deeply interested in various fields of computer science :computer: and am actively learning some of them.
+-->
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=the-redlord" alt="the-redlord" /></a> </p>
 
