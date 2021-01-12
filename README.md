@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Chinmay Sharma</h1>
-<h3 align="center">A passionate <code>computer programmer</code> &amp; a space-enthusiast :milky_way: :rocket: .</h3>
+<h3 align="center">A passionate <code>{computer programmer}</code> &amp; a space-enthusiast :milky_way: :rocket: .</h3>
 
 <h5>
 Designed and Developed websites :globe_with_meridians:, machine learning programs, deep learning and reinforcement learning programs :robot: and used devops tools like Git, Docker, and deployed some of my projects on platforms like AWS, Microsoft Azure, GCP and Firebase. I am also interested in learning about space and how computers can be effectively used to innovate and improve our advancements in the same.
