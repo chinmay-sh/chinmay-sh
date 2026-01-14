@@ -1,33 +1,80 @@
-<h1 align="center">Hi 👋, I'm Chinmay Sharma</h1>
-<h3 align="center">A passionate <code>{computer programmer}</code> &amp; a space-enthusiast :milky_way: :rocket: .</h3>
+<div align="center">
 
-<h5>
-Designed and Developed websites :globe_with_meridians:, machine learning programs, deep learning and reinforcement learning programs :robot: and used devops tools like Git, Docker, and deployed some of my projects on platforms like AWS, Microsoft Azure, GCP and Firebase. I am also interested in learning about space and how computers can be effectively used to innovate and improve our advancements in the same.
-</h5>
-<!--
-I am deeply interested in various fields of computer science :computer: and am actively learning some of them.
--->
+<!-- HEADER: Animated Typing Terminal -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=3000&pause=1000&color=B392F0&center=true&vCenter=true&width=600&lines=Chinmay+Sharma;Architecting+Digital+Realities;Python+%2B+DevOps+%2B+The+Cosmos;Entering+Hyperspace...%F0%9F%9A%80" alt="Typing SVG" />
+</a>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chinmay-sh" alt="chinmay-sh" /></a> </p>
-
-- 🌱 I’m currently learning **Reinforcement Learning &amp; Flutter**
-
-- 👨‍💻 All of my projects are available at [https://github.com/chinmay-sh/](https://github.com/chinmay-sh/)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/chinmay001" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="chinmay001" height="30" width="40" /></a>
+<p align="center">
+  <br>
+  <em>Bridging the gap between <b>Silicon Intelligence</b> and <b>Stellar Mechanics</b>.</em>
+  <br>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.haskell.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg" alt="haskell" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+<!-- Social Badges (Clean) -->
+<p align="center">
+  <a href="https://linkedin.com/in/chinmay001">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/chinmay-sh/">
+    <img src="https://img.shields.io/badge/Github-171515?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=chinmay-sh&show_icons=true&locale=en&layout=compact" alt="chinmay-sh" /></p>
+<br>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=chinmay-sh&show_icons=true&locale=en" alt="chinmay-sh" /></p>
+<!-- TECH STACK -->
+<h2>⚡ Mission Control & Arsenal</h2>
+<p>
+  <img src="https://skillicons.dev/icons?i=python,react,pytorch,docker,kubernetes,githubactions,aws,linux&theme=dark" />
+</p>
 
-[![Github gists](https://gist-count.vercel.app/api?username=chinmay-sh)](https://gist.github.com/chinmay-sh)
+<br>
 
-<!--
-<p><img src="touch.png" alt="slogan" width="250" height="250"/></p>
--->
+<!-- TECH TABLE -->
+<table align="center" style="border: none;">
+  <tr>
+    <td width="50%" align="center" style="border: none;">
+      <h3>🛠️ Core Systems</h3>
+      <p><b>Language:</b> Python 🐍</p>
+      <p><b>Interface:</b> React.js</p>
+      <p><b>Intelligence:</b> PyTorch, OpenCV</p>
+    </td>
+    <td width="50%" align="center" style="border: none;">
+      <h3>⚙️ Orbital Infrastructure</h3>
+      <p><b>Deploy:</b> Docker & Kubernetes ☸️</p>
+      <p><b>Pipeline:</b> GitHub Actions (CI/CD)</p>
+      <p><b>Cloud:</b> AWS & Linux Admin</p>
+    </td>
+  </tr>
+</table>
+
+<br>
+<br>
+
+<!-- FIRST VISUAL: The Black Hole / Dimension -->
+<h2>🌀 Event Horizon</h2>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWVqaHZqaGZqaGZqaGZqaGZqaGZqaGZqaGZqaGZqaCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/U3qYN8S0j3bpK/giphy.gif" width="100%" height="220" style="object-fit: cover; border-radius: 15px;" alt="Black Hole" />
+
+<p align="center">
+  <br>
+  <em>"We are just an advanced breed of monkeys on a minor planet of a very average star. But we can understand the Universe. That makes us something very special."</em>
+  <br>
+  — Stephen Hawking
+</p>
+
+<br>
+
+<!-- LAST VISUAL: Cat Abduction -->
+<h2>🛸 Beam Me Up</h2>
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDZwZnZycmFuZXNpZGkwbW93bDJvamJldDBrNmR1azN6MTJmbmozdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PApUlVfEFmZAQ/giphy.gif" width="40%" height="350" style="object-fit: cover; border-radius: 15px;" alt="Cat Abduction" />
+
+<p align="center">
+  <br>
+  <b>Current Status:</b> Getting abducted by aliens (or surfing the latent space).
+  <br>
+  <b>Vibe:</b> <code>System.exit(0)</code> // <i>See you in the next dimension.</i>
+</p>
+
+</div>
