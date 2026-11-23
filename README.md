@@ -6,8 +6,7 @@
 <a href="#telemetry"><img src="https://img.shields.io/badge/01-TELEMETRY-0f1524?style=for-the-badge&labelColor=b392f0" alt="Telemetry" /></a>
 <a href="#missions"><img src="https://img.shields.io/badge/02-MISSIONS-0f1524?style=for-the-badge&labelColor=b392f0" alt="Missions" /></a>
 <a href="#systems"><img src="https://img.shields.io/badge/03-SYSTEMS-0f1524?style=for-the-badge&labelColor=b392f0" alt="Systems" /></a>
-<a href="#flight-log"><img src="https://img.shields.io/badge/04-FLIGHT_LOG-0f1524?style=for-the-badge&labelColor=b392f0" alt="Flight log" /></a>
-<a href="#comms"><img src="https://img.shields.io/badge/05-COMMS-0f1524?style=for-the-badge&labelColor=b392f0" alt="Comms" /></a>
+<a href="#comms"><img src="https://img.shields.io/badge/04-COMMS-0f1524?style=for-the-badge&labelColor=b392f0" alt="Comms" /></a>
 
 </div>
 
@@ -123,25 +122,6 @@ pie showData
 | Networking | MetalLB, NGINX, PfSense, VLANs |
 
 </details>
-
-<a name="flight-log"></a>
-
-## 🛰️ Flight Log
-
-```mermaid
-timeline
-    2018 : First launch, a Caesar cipher on Android
-         : Tic-tac-toe in Java
-    2019 : Machine learning in MATLAB
-         : Matrix multiplication in x86-64 assembly
-    2020 : satTrack, satellites on a 2D map
-         : Serverless CORS proxy
-         : Deep learning sprint (super-resolution, denoising, space radio signals)
-    2026 : Kash compiles documents into agents
-         : flareRAG and a fleet of MCP servers
-         : Fine-tuning showdown and Frostbite-30M
-         : A voice agent on a phone line, TTS on Modal GPUs
-```
 
 <div align="center">
 
