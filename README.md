@@ -134,9 +134,6 @@ timeline
 
 <img src="https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif" width="100%" height="220" alt="Animated black hole" />
 
-<em>"We are just an advanced breed of monkeys on a minor planet of a very average star. But we can understand the Universe. That makes us something very special."</em><br>
-— Stephen Hawking
-
 <a name="comms"></a>
 
 ## 📻 Open a Channel
@@ -145,12 +142,5 @@ timeline
 <a href="https://linkedin.com/in/chinmay001"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://github.com/chinmay-sh?tab=repositories"><img src="https://img.shields.io/badge/Repositories-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>
 <img src="https://komarev.com/ghpvc/?username=chinmay-sh&style=for-the-badge&color=B392F0&label=Visitors" alt="Profile visitors" />
-
-<br><br>
-
-<img src="https://media0.giphy.com/media/PApUlVfEFmZAQ/giphy.gif" width="30%" alt="Cat being abducted by a UFO" />
-
-<b>Current status:</b> getting abducted by aliens (or surfing the latent space).<br>
-<code>sys.exit(0)</code> // <i>see you in the next dimension.</i>
 
 </div>
