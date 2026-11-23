@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hud.svg" width="100%" alt="Mission Control: Chinmay Sharma. AI agents, MCP servers, voice AI, DevOps. All systems nominal." />
+<img src="assets/hud.svg" width="100%" alt="Mission Control: Chinmay Sharma. AI agents, RAG, voice AI, cloud-native. All systems nominal." />
 
 <!-- NAV -->
 <a href="#telemetry"><img src="https://img.shields.io/badge/01-TELEMETRY-0f1524?style=for-the-badge&labelColor=b392f0" alt="Telemetry" /></a>
@@ -14,7 +14,8 @@
 <br>
 
 > **`> MISSION BRIEF`**
-> I build **AI agents** and the **MCP servers** that let them touch real systems: voice agents on phone lines, coding agents that delegate to other models, and tools served from Cloudflare Workers and Modal GPUs. Before that: computer vision, satellites and a lot of Kubernetes.
+> Signal acquired. This station builds machines that read, listen and talk back: agents compiled from raw documents, retrieval that doesn't miss, voices on phone lines, models tuned on a single GPU.
+> Some missions are public. Most run dark.
 
 <a name="telemetry"></a>
 
@@ -49,37 +50,52 @@ pie showData
 ## 🚀 Active Missions
 
 <div align="center">
-<a href="https://github.com/chinmay-sh/livekit-voice-agent"><img src="assets/missions/livekit-voice-agent.svg" width="49%" alt="livekit-voice-agent" /></a>
-<a href="https://github.com/chinmay-sh/opencode-bridge-mcp"><img src="assets/missions/opencode-bridge-mcp.svg" width="49%" alt="opencode-bridge-mcp" /></a>
+<a href="https://github.com/akashicode/kash"><img src="assets/missions/kash.svg" width="49%" alt="kash" /></a>
 <a href="https://github.com/chinmay-sh/flareRAG"><img src="assets/missions/flareRAG.svg" width="49%" alt="flareRAG" /></a>
+<a href="https://github.com/chinmay-sh/livekit-voice-agent"><img src="assets/missions/livekit-voice-agent.svg" width="49%" alt="livekit-voice-agent" /></a>
 <a href="https://github.com/chinmay-sh/finetuning-showdown"><img src="assets/missions/finetuning-showdown.svg" width="49%" alt="finetuning-showdown" /></a>
-<a href="https://github.com/chinmay-sh/pyjhora-mcp"><img src="assets/missions/pyjhora-mcp.svg" width="49%" alt="pyjhora-mcp" /></a>
+<a href="https://github.com/chinmay-sh/frostbite-30m"><img src="assets/missions/frostbite-30m.svg" width="49%" alt="frostbite-30m" /></a>
 <a href="https://github.com/chinmay-sh/maya-tts-modal"><img src="assets/missions/maya-tts-modal.svg" width="49%" alt="maya-tts-modal" /></a>
-<a href="https://github.com/chinmay-sh/upstash-box-mcp"><img src="assets/missions/upstash-box-mcp.svg" width="49%" alt="upstash-box-mcp" /></a>
+<a href="https://github.com/chinmay-sh/opencode-bridge-mcp"><img src="assets/missions/opencode-bridge-mcp.svg" width="49%" alt="opencode-bridge-mcp" /></a>
 <a href="https://github.com/chinmay-sh/satTrack"><img src="assets/missions/satTrack.svg" width="49%" alt="satTrack" /></a>
 
 <sub>Click a card to board the mission · <a href="https://github.com/chinmay-sh?tab=repositories">all repositories →</a></sub>
 </div>
+
+<details>
+<summary><b>🔒 Classified archive</b> · clearance required</summary>
+<br>
+
+<code>~80 repositories on record. Most remain dark. Declassified fragments:</code>
+
+- MCP gateways on Cloudflare Workers that route many backends behind one endpoint
+- A LangGraph pipeline that chains two OCR engines to read scanned books
+- Voice agents on Vapi and SIP trunks
+- `██████ ███ ████████ ██ ███████████`
+
+</details>
 
 <a name="systems"></a>
 
 ## ⚙️ Onboard Systems
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,ts,react,vue,pytorch,docker,kubernetes,githubactions,aws,gcp,cloudflare,linux&theme=dark&perline=12" alt="Python, TypeScript, React, Vue, PyTorch, Docker, Kubernetes, GitHub Actions, AWS, GCP, Cloudflare, Linux" />
+<img src="https://skillicons.dev/icons?i=go,python,ts,pytorch,docker,kubernetes,githubactions,cloudflare,aws,azure,linux,vue&theme=dark&perline=12" alt="Go, Python, TypeScript, PyTorch, Docker, Kubernetes, GitHub Actions, Cloudflare, AWS, Azure, Linux, Vue" />
 </div>
 
 <br>
 
 <details>
-<summary><b>🧠 Intelligence module</b> · agents, LLM tooling, ML</summary>
+<summary><b>🧠 Intelligence module</b> · agents, retrieval, models</summary>
 
 | Subsystem | Hardware |
 |---|---|
-| Agent protocols | MCP, FastMCP, OpenCode |
-| Voice | LiveKit Agents, Maya2 TTS |
-| Retrieval | RAG pipelines, embeddings |
-| Vision & ML | PyTorch, OpenCV, Keras, scikit-learn |
+| Agent protocols | MCP, A2A, FastMCP, OpenAI-compatible APIs |
+| Retrieval | Hybrid RAG (vector + BM25 + knowledge graph), RRF, reranking, Pinecone |
+| Fine-tuning | LoRA, QLoRA, PEFT, prefix-tuning, Hugging Face Transformers |
+| Inference | GPU serving on Modal, vLLM, llama.cpp |
+| Voice | LiveKit Agents, Gemini Live, SIP telephony |
+| Orchestration | LangGraph, LangChain, LlamaIndex |
 
 </details>
 
@@ -88,22 +104,23 @@ pie showData
 
 | Subsystem | Hardware |
 |---|---|
-| Primary | Python 🐍 |
-| Secondary | TypeScript, JavaScript |
-| Interfaces | React, Vue / Nuxt, Streamlit |
-| Low level | x86-64 Assembly (for fun) |
+| Primary | Go, Python 🐍 |
+| Secondary | TypeScript, Bash, PowerShell |
+| Interfaces | Vue, Astro, Streamlit |
+| Low level | x86-64 assembly (for fun) |
 
 </details>
 
 <details>
-<summary><b>☸️ Launch infrastructure</b> · deploy, CI/CD, cloud</summary>
+<summary><b>☸️ Launch infrastructure</b> · deploy, observe, connect</summary>
 
 | Subsystem | Hardware |
 |---|---|
-| Containers | Docker, Kubernetes |
-| Pipelines | GitHub Actions |
-| Cloud | AWS, GCP, Cloudflare Workers, Modal |
-| Ground ops | Linux administration |
+| Containers | Docker (multi-arch), Kubernetes (K3s, MicroK8s, Rancher), Helm |
+| Pipelines | GitHub Actions, ArgoCD (GitOps), Jenkins |
+| Edge & cloud | Cloudflare Workers & R2, Modal, AWS, Azure |
+| Observability | Prometheus, Grafana, ELK |
+| Networking | MetalLB, NGINX, PfSense, VLANs |
 
 </details>
 
@@ -113,19 +130,17 @@ pie showData
 
 ```mermaid
 timeline
-    2018 : First launch, Caesar cipher on Android
-         : Tic-tac-toe
-    2019 : Crypto price tracker
-         : Stanford machine learning course
+    2018 : First launch, a Caesar cipher on Android
+         : Tic-tac-toe in Java
+    2019 : Machine learning in MATLAB
          : Matrix multiplication in x86-64 assembly
-    2020 : satTrack, satellites on a 2D map, plus its API
+    2020 : satTrack, satellites on a 2D map
          : Serverless CORS proxy
          : Deep learning sprint (super-resolution, denoising, space radio signals)
-    2024 : LLM playground on Cloudflare Workers AI
-         : LLM engineer pathway
-    2026 : MCP servers (PyJHora, OpenCode bridge, Upstash Box)
-         : flareRAG and a fine-tuning benchmark
-         : Voice resume agent on LiveKit, Maya2 TTS on Modal
+    2026 : Kash compiles documents into agents
+         : flareRAG and a fleet of MCP servers
+         : Fine-tuning showdown and Frostbite-30M
+         : A voice agent on a phone line, TTS on Modal GPUs
 ```
 
 <div align="center">

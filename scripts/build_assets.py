@@ -16,20 +16,21 @@ from pathlib import Path
 USER = "chinmay-sh"
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
-FEATURED = [  # (repo, icon, fallback blurb when the repo has no description) shown as mission cards
-    ("livekit-voice-agent", "📞", "Your resume on a phone line: a voice AI agent that answers questions about you."),
-    ("opencode-bridge-mcp", "🌉", "Delegate coding work to OpenCode from Claude Code or any MCP client."),
-    ("flareRAG", "🔭", "Turn any folder of documents into a semantic search engine for MCP clients."),
-    ("finetuning-showdown", "⚖️", "Full fine-tuning vs LoRA vs QLoRA vs prefix-tuning, benchmarked on Qwen2."),
-    ("pyjhora-mcp", "🪐", "Vedic astrology calculations from PyJHora exposed as typed LLM tools."),
-    ("maya-tts-modal", "🔊", "Maya2 Native text-to-speech served as a remote MCP server on Modal."),
-    ("upstash-box-mcp", "📦", "An MCP server on Cloudflare Workers that controls Upstash Boxes."),
-    ("satTrack", "🛰️", "Visual satellite tracking on 2D maps."),
+EXTRA_REPOS = ["akashicode/kash"]  # my repos that live outside the user account
+FEATURED = [  # (repo, icon, blurb) shown as mission cards; the blurb wins over the GitHub description
+    ("kash", "🧬", "Compiles a folder of documents into one self-contained AI agent. Hybrid retrieval, recall@5 of 1.00."),
+    ("flareRAG", "🔭", "Serverless RAG on Cloudflare Workers: embed, search, rerank, served to any MCP client. Runs at $0."),
+    ("livekit-voice-agent", "📞", "A multilingual voice agent that picks up the phone and briefs you on my work."),
+    ("finetuning-showdown", "⚖️", "Full FT vs LoRA vs QLoRA vs prefix-tuning on Qwen2. LoRA kept 94% quality on 1.75% of params."),
+    ("frostbite-30m", "❄️", "A 29M-param edge model mixing attention with liquid neural dynamics and a learned compute router."),
+    ("maya-tts-modal", "🔊", "Open-weights TTS on serverless GPUs as a remote MCP tool, benchmarked from cold start to warm."),
+    ("opencode-bridge-mcp", "🌉", "Agent-to-agent delegation: Claude Code hands coding tasks to OpenCode over MCP."),
+    ("satTrack", "🛰️", "Live satellite tracking on a 2D map. Where the orbit began."),
 ]
 LANG_COLORS = {
     "Python": "#3572A5", "TypeScript": "#3178c6", "JavaScript": "#f1e05a",
     "Jupyter Notebook": "#DA5B0B", "Vue": "#41b883", "HTML": "#e34c26",
-    "CSS": "#663399", "Assembly": "#6E4C13", "Java": "#b07219", "Go": "#00ADD8",
+    "CSS": "#663399", "Assembly": "#6E4C13", "Java": "#b07219", "Go": "#00ADD8", "MATLAB": "#e16737",
     "Shell": "#89e051", "C++": "#f34b7d", "Dart": "#00B4AB",
 }
 BG, PANEL, LINE = "#0a0e17", "#0f1524", "#1f2a44"
@@ -63,7 +64,8 @@ def fetch_repos():
         batch = get(f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}")
         repos += batch
         if len(batch) < 100:
-            return [r for r in repos if not r["fork"] and r["name"] != USER]
+            mine = [r for r in repos if not r["fork"] and r["name"] != USER]
+            return mine + [get(f"https://api.github.com/repos/{full}") for full in EXTRA_REPOS]
         page += 1
 
 
@@ -166,7 +168,7 @@ def card(repo, icon, blurb, now):
     days = (now - parse_date(repo["pushed_at"])).days
     status, col = ("ACTIVE", "#22c55e") if days <= 90 else ("IN ORBIT", CYAN) if days <= 730 else ("DORMANT", DIM)
     lang = repo["language"] or "—"
-    lines = wrap(repo["description"] or blurb, 56, 2)
+    lines = wrap(blurb or repo["description"] or "", 56, 2)
     desc = "".join(f'<text x="24" y="{86 + i * 22}" fill="{DIM}" font-size="14">{escape(l)}</text>' for i, l in enumerate(lines))
     body = (f'<text x="24" y="44" fill="{TEXT}" font-size="20" font-weight="700">{icon} {escape(repo["name"])}</text>'
             f'<rect x="{560 - 18 - len(status) * 9 - 28}" y="24" width="{len(status) * 9 + 28}" height="24" rx="12" fill="none" stroke="{col}"/>'
@@ -178,7 +180,7 @@ def card(repo, icon, blurb, now):
             f'<text x="44" y="169" fill="{TEXT}" font-size="13">{escape(lang)}</text>'
             f'<text x="240" y="169" fill="{AMBER}" font-size="13">★ {repo["stargazers_count"]}</text>'
             f'<text x="536" y="169" fill="{DIM}" font-size="12" text-anchor="end">LAST BURN {parse_date(repo["pushed_at"]):%Y-%m-%d}</text>')
-    return svg(560, 190, f'{repo["name"]}: {repo["description"] or blurb}', body)
+    return svg(560, 190, f'{repo["name"]}: {blurb}', body)
 
 
 def update_readme(repos):
