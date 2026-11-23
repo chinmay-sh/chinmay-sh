@@ -130,10 +130,6 @@ timeline
 
 <div align="center">
 
-### 🌀 Deep Space Feed
-
-<img src="https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif" width="100%" height="220" alt="Animated black hole" />
-
 <a name="comms"></a>
 
 ## 📻 Open a Channel
