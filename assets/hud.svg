@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Mission Control: Chinmay Sharma</title>
+  <desc id="d">Animated mission control console with a radar sweep, an orbiting satellite and a telemetry ticker.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1222"/>
+      <stop offset="1" stop-color="#070a12"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1a2440" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="planet" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#c4a8ff"/>
+      <stop offset="0.55" stop-color="#6d4bc4"/>
+      <stop offset="1" stop-color="#1c1240"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0.45"/>
+    </linearGradient>
+    <clipPath id="radarClip"><circle cx="180" cy="170" r="120"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .spin { transform-box: view-box; animation: spin 4s linear infinite; }
+    #sweepArm { transform-origin: 180px 170px; }
+    #orbit { transform-origin: 1000px 170px; animation-duration: 12s; }
+    #orbit2 { transform-origin: 1000px 170px; animation-duration: 20s; animation-direction: reverse; }
+    .blip { animation: blip 4s ease-out infinite; opacity: 0; }
+    .b2 { animation-delay: 1.1s; } .b3 { animation-delay: 2.3s; } .b4 { animation-delay: 3.2s; }
+    .blink { animation: blink 1.4s steps(2, start) infinite; }
+    .ticker { animation: tick 28s linear infinite; }
+    .scan { animation: scan 6s ease-in-out infinite; }
+    .rise { animation: rise 1.2s ease-out both; }
+    .r2 { animation-delay: .25s; } .r3 { animation-delay: .5s; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes blip { 0% { opacity: 1; } 70% { opacity: .15; } 100% { opacity: 0; } }
+    @keyframes blink { to { visibility: hidden; } }
+    @keyframes tick { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+    @keyframes scan { 0%,100% { transform: translateY(0); opacity: .0; } 50% { transform: translateY(300px); opacity: .5; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .blip, .rise { opacity: 1; } }
+  </style>
+
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)" opacity="0.6"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#2a3760"/>
+  <rect class="scan" x="0" y="20" width="1200" height="2" fill="#5eead4" opacity="0"/>
+
+  <!-- corner brackets -->
+  <g stroke="#b392f0" stroke-width="2" fill="none">
+    <path d="M20 44V20H44"/><path d="M1156 20H1180V44"/><path d="M20 316V340H44"/><path d="M1180 316V340H1156"/>
+  </g>
+
+  <!-- RADAR -->
+  <g>
+    <circle cx="180" cy="170" r="120" fill="#0b1a1e" stroke="#1f4b4a"/>
+    <g fill="none" stroke="#1f4b4a">
+      <circle cx="180" cy="170" r="90"/><circle cx="180" cy="170" r="60"/><circle cx="180" cy="170" r="30"/>
+      <path d="M60 170H300M180 50V290"/>
+    </g>
+    <g clip-path="url(#radarClip)">
+      <g id="sweepArm" class="spin"><path d="M180 170 L300 170 A120 120 0 0 0 284 110 Z" fill="url(#sweep)"/></g>
+    </g>
+    <g fill="#5eead4" filter="url(#glow)">
+      <circle class="blip" cx="248" cy="132" r="4"/>
+      <circle class="blip b2" cx="140" cy="230" r="4"/>
+      <circle class="blip b3" cx="110" cy="120" r="3"/>
+      <circle class="blip b4" cx="230" cy="236" r="3"/>
+    </g>
+    <text x="180" y="316" fill="#5eead4" font-size="12" text-anchor="middle" letter-spacing="3">SCANNING REPOS</text>
+  </g>
+
+  <!-- TITLE BLOCK -->
+  <g>
+    <text class="rise" x="600" y="96" fill="#7c869c" font-size="14" text-anchor="middle" letter-spacing="6">GROUND STATION // CHINMAY-SH</text>
+    <text class="rise r2" x="600" y="152" fill="#f5f3ff" font-size="52" font-weight="700" text-anchor="middle" letter-spacing="4">CHINMAY SHARMA</text>
+    <text class="rise r3" x="600" y="192" fill="#b392f0" font-size="18" text-anchor="middle" letter-spacing="2">AI AGENTS · MCP SERVERS · VOICE AI · DEVOPS</text>
+    <g class="rise r3">
+      <rect x="470" y="218" width="260" height="34" rx="17" fill="#0f2a22" stroke="#22c55e"/>
+      <circle class="blink" cx="494" cy="235" r="6" fill="#22c55e"/>
+      <text x="610" y="240" fill="#86efac" font-size="14" text-anchor="middle" letter-spacing="2">ALL SYSTEMS NOMINAL</text>
+    </g>
+  </g>
+
+  <!-- PLANET + ORBITS -->
+  <g>
+    <ellipse cx="1000" cy="170" rx="130" ry="130" fill="none" stroke="#2a3760" stroke-dasharray="4 6"/>
+    <ellipse cx="1000" cy="170" rx="96" ry="96" fill="none" stroke="#2a3760" stroke-dasharray="2 6"/>
+    <circle cx="1000" cy="170" r="58" fill="url(#planet)"/>
+    <ellipse cx="1000" cy="170" rx="86" ry="16" fill="none" stroke="#b392f0" stroke-opacity="0.55" stroke-width="3" transform="rotate(-18 1000 170)"/>
+    <g id="orbit" class="spin">
+      <g transform="translate(1130 170)" filter="url(#glow)">
+        <rect x="-5" y="-5" width="10" height="10" fill="#fbbf24"/>
+        <rect x="-19" y="-3" width="11" height="6" fill="#5eead4"/>
+        <rect x="8" y="-3" width="11" height="6" fill="#5eead4"/>
+      </g>
+    </g>
+    <g id="orbit2" class="spin"><circle cx="1000" cy="74" r="4" fill="#f472b6" filter="url(#glow)"/></g>
+    <text x="1000" y="330" fill="#7c869c" font-size="12" text-anchor="middle" letter-spacing="3">ORBIT: LATENT SPACE</text>
+  </g>
+
+  <!-- TICKER -->
+  <g>
+    <rect x="330" y="300" width="540" height="28" rx="6" fill="#0b1020" stroke="#1f2a44"/>
+    <svg x="338" y="300" width="524" height="28">
+      <g class="ticker">
+        <text y="19" fill="#5eead4" font-size="13" letter-spacing="1">
+          <tspan x="0">▲ PYTHON NOMINAL ▲ MCP LINK ESTABLISHED ▲ VOICE AGENT ONLINE ▲ K8S PODS 100% ▲ CI PIPELINE GREEN ▲ COFFEE LEVEL: CRITICAL ▲</tspan>
+          <tspan x="1200">▲ PYTHON NOMINAL ▲ MCP LINK ESTABLISHED ▲ VOICE AGENT ONLINE ▲ K8S PODS 100% ▲ CI PIPELINE GREEN ▲ COFFEE LEVEL: CRITICAL ▲</tspan>
+        </text>
+      </g>
+    </svg>
+  </g>
+</svg>

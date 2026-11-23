@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" width="560" height="190" role="img"><title>maya-tts-modal: Maya2 Native text-to-speech served as a remote MCP server on Modal.</title><style>
+text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+.grow { transform-box: fill-box; transform-origin: left; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+.up { transform-box: fill-box; transform-origin: bottom; animation: up 1.4s cubic-bezier(.2,.8,.2,1) both; }
+.fade { animation: fade 1s ease-out both; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+@keyframes grow { from { transform: scaleX(0); } }
+@keyframes up { from { transform: scaleY(0); } }
+@keyframes fade { from { opacity: 0; } }
+@keyframes pulse { 50% { opacity: .3; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style><rect width="560" height="190" rx="16" fill="#0a0e17"/><rect x=".5" y=".5" width="559" height="189" rx="16" fill="none" stroke="#1f2a44"/><text x="24" y="44" fill="#e5e7eb" font-size="20" font-weight="700">🔊 maya-tts-modal</text><rect x="460" y="24" width="82" height="24" rx="12" fill="none" stroke="#22c55e"/><circle class="pulse" cx="474" cy="36" r="4" fill="#22c55e"/><text x="534" y="41" fill="#22c55e" font-size="12" text-anchor="end" letter-spacing="1">ACTIVE</text><text x="24" y="86" fill="#7c869c" font-size="14">Maya2 Native text-to-speech served as a remote MCP</text><text x="24" y="108" fill="#7c869c" font-size="14">server on Modal.</text><path d="M24 142H536" stroke="#1f2a44"/><circle cx="30" cy="164" r="6" fill="#3572A5"/><text x="44" y="169" fill="#e5e7eb" font-size="13">Python</text><text x="240" y="169" fill="#fbbf24" font-size="13">★ 0</text><text x="536" y="169" fill="#7c869c" font-size="12" text-anchor="end">LAST BURN 2026-11-02</text></svg>
